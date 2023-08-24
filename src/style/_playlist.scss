@@ -1,0 +1,109 @@
+.playlist{
+    width: 100%;
+    .playlist-header{
+        width: 100%;
+        padding: 20px 0;
+        .playlist-header-content{
+            width: 93%;
+            margin: 0 auto;
+            display: flex;
+            gap: 2rem;
+            img{
+                width: 250px;
+                border-radius: 2px;
+                box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.705);
+            }
+            .playlist-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                color: white;
+                padding-bottom: 10px;
+                h1{
+                    font-size: 50px;
+                    margin-top: 10px;
+                    font-weight: 900;
+                }
+                p{
+                    margin-top: 10px;
+                    color: #b0adad;
+                }
+                .spotify{
+                    margin-top: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+    .playlist-songs{
+        width: 100%;
+        padding: 20px 0;
+        .table{
+            width: 93%;
+            margin: 0 auto;
+            .table-header{
+                border-bottom: 0.5px solid #b0adad;
+                width: 100%;
+                display: flex;
+                padding: 10px 20px;
+                color: #b0adad;
+                font-weight: bold;
+                justify-content: space-between;
+                .row-id{
+                    width: 4%;
+                    display: flex;
+                    align-items: center;
+                }
+                .row{
+                    width: 24%;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .table-body{
+                margin-top: 8px;
+                border-radius: 5px;
+                width: 100%;
+                display: flex;
+                padding: 10px 20px;
+                color: #b0adad;
+                justify-content: space-between;
+                .row-id{
+                    width: 4%;
+                    display: flex;
+                    align-items: center;
+                }
+                .row{
+                    width: 24%;
+                    display: flex;
+                    align-items: center;
+                }
+                &:hover{
+                    background-color: #3e3d3d;
+                }
+                .row-music-title{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .row-music{
+                        margin-left: 10px;
+                        button{
+                            border: none;
+                            cursor: pointer;
+                            font-size: 1rem;
+                            color: white;
+                            background-color: transparent;
+                            &:hover{
+                                border-bottom: solid 1px white;
+                            }
+                        }
+                    }
+                    img{
+                        width: 50px;
+                    }
+
+                }
+            }            
+        }
+    }
+}

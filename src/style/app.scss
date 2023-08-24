@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Nunito-Regular.ttf") format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #101420;
+}
+
+@import url("./_home.scss");
+@import url("./_sidebar.scss");
+@import url("./_sidebar.scss");
+@import url("./_music-manager.scss");
+@import url("./_playlist.scss");
+@import url("./_music.scss");

@@ -1,0 +1,341 @@
+.home-content{
+    width: 70%;
+    background-color: #212121;
+    border-radius: 10px;
+    .header-content{
+        width: 93%;
+        margin: 0 auto;
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        .explore{
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            background-color: white;
+            cursor: pointer;
+            font-family: "Montserrat", sans-serif;
+            &:hover{
+                transform: scale(1.07);
+            }
+        }
+        .install{
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-family: "Montserrat", sans-serif;
+            &:hover{
+                transform: scale(1.07);
+            }
+        }
+        .profile{
+            padding: 0.5rem 0.7rem;
+            border-radius: 50%;
+            border: none;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-family: "Montserrat", sans-serif;
+            &:hover{
+                transform: scale(1.07);
+            }
+        }
+
+    }
+    main{
+        color: white;
+        .uzbek{
+            width: 93%;
+            margin: 0 auto;
+            margin-top: 1rem;
+            .uzbek-content{
+                width: 100%;
+                height: auto;
+                padding: 1rem 0;
+                h1{
+                    font-weight: 900;
+                }
+                .card-content{
+                    padding: 1rem 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                    .card{
+                        padding: 0.75rem 0.75rem 1rem 0.75rem;
+                        width: 20%;
+                        border-radius: 8px;
+                        position: relative;
+                        background-color: #181818;
+                        .card-play-btn{
+                            position: absolute;
+                            width: 45px;
+                            top: 110px;
+                            right: 20px;
+                            display: none;
+                            height: 45px;
+                            border-radius: 50%;
+                            border: none;
+                            background-color: #1ed760;
+                            cursor: pointer;
+                            color: black;
+                            font-size: 20px;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                        &:hover{
+                            background-color: #282828;
+                            cursor: pointer;
+                            transition: 0.5s;
+                        }
+                        &:hover .card-play-btn{
+                            display: block;
+                            transition: 0.5s ease-in;
+                        }
+                        img{
+                            width: 100%;
+                            border-radius: 8px;
+                            box-shadow: 0 0 2px white;
+                        }
+                        h4{
+                            margin-top: 10px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #a3a6a7;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .russian{
+            width: 93%;
+            margin: 0 auto;
+            .russian-content{
+                width: 100%;
+                height: auto;
+                padding: 1rem 0;
+                h1{
+                    font-weight: 900;
+                }
+                .card-content{
+                    padding: 1rem 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                    .card{
+                        padding: 0.75rem 0.75rem 1rem 0.75rem;
+                        width: 20%;
+                        border-radius: 8px;
+                        position: relative;
+                        background-color: #181818;
+                        .card-play-btn{
+                            position: absolute;
+                            width: 45px;
+                            top: 110px;
+                            right: 20px;
+                            display: none;
+                            height: 45px;
+                            border-radius: 50%;
+                            border: none;
+                            background-color: #1ed760;
+                            cursor: pointer;
+                            color: black;
+                            font-size: 20px;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                        &:hover{
+                            background-color: #282828;
+                            cursor: pointer;
+                            transition: 0.5s;
+                        }
+                        &:hover .card-play-btn{
+                            display: block;
+                            transition: 0.5s ease-in;
+                        }
+                        img{
+                            width: 100%;
+                            border-radius: 8px;
+                            box-shadow: 0 0 2px white;
+                        }
+                        h4{
+                            margin-top: 10px;
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: 10px;
+                            color: #a3a6a7;
+                        }
+                    }
+                }
+            }
+        }
+        .word-music{
+            width: 93%;
+            margin: 0 auto;
+            .word-music-content{
+                width: 100%;
+                height: auto;
+                padding: 1rem 0;
+                h1{
+                    font-weight: 900;
+                }
+                .card-content{
+                    padding: 1rem 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                    .card{
+                        padding: 0.75rem 0.75rem 1rem 0.75rem;
+                        width: 20%;
+                        border-radius: 8px;
+                        position: relative;
+                        background-color: #181818;
+                        .card-play-btn{
+                            position: absolute;
+                            width: 45px;
+                            top: 110px;
+                            right: 20px;
+                            display: none;
+                            height: 45px;
+                            border-radius: 50%;
+                            border: none;
+                            background-color: #1ed760;
+                            cursor: pointer;
+                            color: black;
+                            font-size: 20px;
+                            &:hover{
+                                transform: scale(1.05);
+                            }
+                        }
+                        &:hover{
+                            background-color: #282828;
+                            cursor: pointer;
+                            transition: 0.5s;
+                        }
+                        &:hover .card-play-btn{
+                            display: block;
+                            transition: 0.5s ease-in;
+                        }
+                        img{
+                            width: 100%;
+                            border-radius: 8px;
+                            box-shadow: 0 0 2px white;
+                        }
+                        h4{
+                            margin-top: 10px;
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: 10px;
+                            color: #a3a6a7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        font-weight: 500;
+        width: 100%;
+        height: auto;
+        padding: 50px 0; 
+        .contact{
+            width: 93%;
+            margin: 0 auto;
+            .contact-content{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                div{
+                    width: 19%;
+                    h4{
+                        color: white;
+                    }
+                    ul{
+                        list-style-type: none;
+                        li {
+                            margin-top: 10px;
+                            a{
+                                text-decoration: none;
+                                color: #a3a6a7;
+                                &:hover{
+                                    color: white;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+                .icon-content{
+                    width: 38%;
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 0.75rem;
+                    .footer-icon{
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        border: none;
+                        background-color: #292929;
+                        color: white;
+                        font-size: 18px;
+                        &:hover{
+                            background-color: #a3a6a7;
+                        }
+                    }
+                }
+            }
+        } 
+        .footer{
+            width: 93%;
+            margin: 0 auto;
+            margin-top: 3rem;
+            border-top: solid 1px #a3a6a7;
+            .footer-content{
+                margin-top: 2rem;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .footer-list{
+                    width: 70%;
+                    ul{
+                        display: flex;
+                        gap: 0.75rem;
+                        font-size: 14px;
+                        list-style-type: none;
+                        li a{
+                            text-decoration: none;
+                            color: #a3a6a7;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .footer-text{
+                    color: white;
+                }
+            }
+        }   
+    }
+}
